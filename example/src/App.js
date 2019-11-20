@@ -1,18 +1,3 @@
-# masspa-voucher-carousel
-
-> 
-
-[![NPM](https://img.shields.io/npm/v/masspa-voucher-carousel.svg)](https://www.npmjs.com/package/masspa-voucher-carousel) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
-## Install
-
-```bash
-npm install --save masspa-voucher-carousel
-```
-
-## Usage
-
-```jsx
 import React, { Component } from 'react'
 
 import MasspaVoucherCarousel from 'masspa-voucher-carousel'
@@ -212,15 +197,3 @@ export default class App extends Component {
     )
   }
 }
-```
-## Properties
-
-| Props                     | Description                      | Value                    | Default                      | Required          | 
-| ------------------------- |----------------------------------|--------------------------|------------------------------|-------------------|
-| **`data`**                | List images to show              |                          | `[]`                         |  Array            |
-| **`link`**                | Link url                         |                          | `/promotion/?promotionId=`   |  Template strings |
-| **`iconArrow`**           | icon component                   |                          |                              |  Component        |
-
-## License
-
-MIT © [https://github.com/thinktodo-dev/masspa-voucher-carousel](https://github.com/https://github.com/thinktodo-dev/masspa-voucher-carousel)
